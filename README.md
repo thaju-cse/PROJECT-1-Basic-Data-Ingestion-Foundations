@@ -18,12 +18,13 @@ basic transformations like removing white spaces, upper case to lower case.
 ---
 
 ## Tech Stack
+```
 |Category	|Tools						|
 |_______________|_______________________________________________|
 |Language	|Python						|
 |Libraries	|requests, pandas, datetime, json, pathlib	|
 |OS		|Ubuntu(WSL)					|
-
+```
 ---
 
 ## Project Architecture
@@ -38,11 +39,11 @@ basic transformations like removing white spaces, upper case to lower case.
 git clone https://github.com/thaju-cse/PROJECT-1-Basic-Data-Ingestion-Foundations
 cd PROJECT-1-Basic-Data-Ingestion-Foundation
 pip install -r requirements.txt
-
+```
 ---
 
 ## Folder Structure
-project-01-Data-Ingestion-Foundation/
+```project-01-Data-Ingestion-Foundation/
 |-- data/
 |    |-- raw/
 |    |-- processed/
@@ -51,7 +52,7 @@ project-01-Data-Ingestion-Foundation/
 |    |-- process_csv.py
 |-- README.md
 |-- requirements.txt
-
+```
 ---
 
 ## Learning Outcomes
