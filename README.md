@@ -19,11 +19,11 @@ basic transformations like removing white spaces, upper case to lower case.
 
 ## Tech Stack
 ```
-|Category	|Tools						|
-|_______________|_______________________________________________|
-|Language	|Python						|
-|Libraries	|requests, pandas, datetime, json, pathlib	|
-|OS		|Ubuntu(WSL)					|
+|Category       |Tools                                    |
+|_______________|_________________________________________|
+|Language       |Python                                   |
+|Libraries      |requests, pandas, datetime, json, pathlib|
+|OS             |Ubuntu(WSL)                              |
 ```
 ---
 
@@ -66,4 +66,5 @@ pip install -r requirements.txt
 - visualizing using tools
 ## Author
 **Shaik Thajuddhin**
+---
 **Aspiring Data Engineer**
