@@ -19,11 +19,13 @@ basic transformations like removing white spaces, upper case to lower case.
 
 ## Tech Stack
 ```
+|---------------------------------------------------------|
 |Category       |Tools                                    |
-|_______________|_________________________________________|
+|---------------|-----------------------------------------|
 |Language       |Python                                   |
 |Libraries      |requests, pandas, datetime, json, pathlib|
 |OS             |Ubuntu(WSL)                              |
+|---------------------------------------------------------|
 ```
 ---
 
@@ -43,15 +45,23 @@ pip install -r requirements.txt
 ---
 
 ## Folder Structure
-```project-01-Data-Ingestion-Foundation/
-|-- data/
-|    |-- raw/
-|    |-- processed/
-|-- src/
-|    |-- fetch_api_data.py
-|    |-- process_csv.py
-|-- README.md
-|-- requirements.txt
+```
+
+├── README.md
+├── data
+│   ├── processed
+│   │   └── sample_data_cleaned.csv
+│   └── raw
+│       ├── sample_csv.csv
+│       ├── weather_20260204_025758.json
+│       └── weather_20260204_030019.json
+├── md
+├── requirements.txt
+└── src
+    ├── fetch_api_data.py
+    └── process_csv.py
+
+5 directories, 9 files
 ```
 ---
 
